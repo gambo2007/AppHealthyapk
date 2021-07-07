@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RiskAssessment">
+
+    <TextView
+        android:id="@+id/textRisk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF1744"
+        android:textSize="25sp"
+        android:layout_marginStart="154dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginRight="150dp"
+        android:gravity="center"
+        tools:text="Checklist to self-assess the risk of nCoV contamination "
+        android:background="@drawable/my_border"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="4dp"
+        android:orientation="vertical"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+
+        <Button
+            android:id="@+id/backRe"
+            android:layout_width="74dp"
+            android:layout_height="42dp"
+            android:text="Back"
+            android:textColor="#120101"
+            app:backgroundTint="#DCD6D6"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="150dp"
+            android:layout_marginRight="150dp"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Passing through / from the nCoV epidemic zone"
+                android:textSize="10sp"
+                tools:layout_editor_absoluteX="22dp"
+                tools:layout_editor_absoluteY="131dp" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="65dp"
+                tools:layout_editor_absoluteX="110dp"
+                tools:layout_editor_absoluteY="131dp">
+
+                <RadioButton
+                    android:id="@+id/rb1"
+                    android:layout_width="60dp"
+                    android:layout_height="32dp"
+                    android:clickable="true"
+                    android:text="Yes"
+                    android:textSize="10sp" />
+
+                <RadioButton
+                    android:id="@+id/rb2"
+                    android:layout_width="60dp"
+                    android:layout_height="32dp"
+                    android:clickable="true"
+                    android:text="No"
+                    android:textSize="10sp" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="150dp"
+            android:layout_marginRight="150dp"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Having been in contact with a suspected / infected person "
+                android:textSize="10sp"
+                tools:layout_editor_absoluteX="22dp"
+                tools:layout_editor_absoluteY="131dp" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="17.5dp"
+                tools:layout_editor_absoluteX="110dp"
+                tools:layout_editor_absoluteY="131dp">
+
+                <RadioButton
+                    android:id="@+id/rb3"
+                    android:layout_width="60dp"
+                    android:layout_height="32dp"
+                    android:clickable="true"
+                    android:text="Yes"
+                    android:textSize="10sp" />
+
+                <RadioButton
+                    android:id="@+id/rb4"
+                    android:layout_width="60dp"
+                    android:layout_height="32dp"
+                    android:clickable="true"
+                    android:text="No"
+                    android:textSize="10sp" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="150dp"
+            android:layout_marginRight="150dp"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Fever"
+                android:textSize="10sp"
+                tools:layout_editor_absoluteX="22dp"
+                tools:layout_editor_absoluteY="131dp" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="255dp"
+                tools:layout_editor_absoluteX="110dp"
+                tools:layout_editor_absoluteY="131dp">
+
+                <RadioButton
+                    android:id="@+id/rb5"
+                    android:layout_width="60dp"
+                    android:layout_height="32dp"
+                    android:clickable="true"
+                    android:text="Yes"
+                    android:textSize="10sp" />
+
+                <RadioButton
+                    android:id="@+id/rb6"
+                    android:layout_width="60dp"
+                    android:layout_height="32dp"
+                    android:clickable="true"
+                    android:text="No"
+                    android:textSize="10sp" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="150dp"
+            android:layout_marginRight="150dp"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Cough "
+                android:textSize="10sp"
+                tools:layout_editor_absoluteX="22dp"
+                tools:layout_editor_absoluteY="131dp" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="248dp"
+                tools:layout_editor_absoluteX="110dp"
+                tools:layout_editor_absoluteY="131dp">
+
+                <RadioButton
+                    android:id="@+id/rb7"
+                    android:layout_width="60dp"
+                    android:layout_height="32dp"
+                    android:clickable="true"
+                    android:text="Yes"
+                    android:textSize="10sp" />
+
+                <RadioButton
+                    android:id="@+id/rb8"
+                    android:layout_width="60dp"
+                    android:layout_height="32dp"
+                    android:clickable="true"
+                    android:text="No"
+                    android:textSize="10sp" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="150dp"
+            android:layout_marginRight="150dp"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/t5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Shortness of breath "
+                android:textSize="10sp"
+                tools:layout_editor_absoluteX="22dp"
+                tools:layout_editor_absoluteY="131dp" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="187dp"
+                tools:layout_editor_absoluteX="110dp"
+                tools:layout_editor_absoluteY="131dp">
+
+                <RadioButton
+                    android:id="@+id/rb9"
+                    android:layout_width="60dp"
+                    android:layout_height="32dp"
+                    android:clickable="true"
+                    android:text="Yes"
+                    android:textSize="10sp" />
+
+                <RadioButton
+                    android:id="@+id/rb10"
+                    android:layout_width="60dp"
+                    android:layout_height="32dp"
+                    android:clickable="true"
+                    android:text="No"
+                    android:textSize="10sp" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginRight="150dp"
+
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="160dp"
+            android:text="Submit"
+            app:backgroundTint="#300F77"
+            tools:layout_editor_absoluteX="159dp"
+            tools:layout_editor_absoluteY="383dp" />
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

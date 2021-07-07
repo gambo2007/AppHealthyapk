@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillViewport="true"
+    android:orientation="vertical"
+
+    >
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:id="@+id/BackIn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:textColor="#120101"
+                android:backgroundTint="#DCD6D6"
+                />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Information About nCoV"
+                android:textSize="30sp">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="813dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+
+
+                android:text="Corona virus is a large family of viruses found in both animals and humans. Some viruses can cause illness in people from the common cold to more serious illnesses such as Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS). The new Corona virus is a new strain of the Corona virus that has never been identified in humans before. This new virus, now called 2019-nCoV, was never discovered before the outbreak was reported in Wuhan, China in December 2019. It is a new respiratory virus that causes inflammation of the airways. acute human absorption and indicates human-to-human transmission. This new virus is related to the severe Acute Respiratory Syndrome virus (SARS-CoV) but not the same virus. Medical agencies and medical partners are working hard to identify the source of nCoV. It is widely believed that the Corona virus is a betacoronavirus, belonging to the family of the MERS-CoV syndrome virus and SARS syndrome, all of which originated from a bat host. Analysis of the genetic tree of this virus is being continued for the specific origin of the virus.Mechanism of transmission, this virus initially appeared from animal sources but has the ability to spread from person to person. It is important to note that human-to-human transmission can occur continuously. In humans, the virus spreads from person to person through contact with the body fluids of an infected person. Depending on how spread the virus is spread, coughing, sneezing or shaking hands can expose people around you. The virus can also be spread by touching something that an infected person touches by hand, and then by their mouth, nose, and eyes. Caregivers can also be exposed to the virus when disposing of patient waste. Like other respiratory diseases, a 2019-nCoV infection can cause mild symptoms including a runny nose, sore throat, cough, and fever. It can be severe in some people and can lead to pneumonia or difficulty breathing. Rarely, the disease can be fatal. The elderly and people with chronic illnesses (such as diabetes and heart disease) are more susceptible to serious illness.">
+
+
+            </TextView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
